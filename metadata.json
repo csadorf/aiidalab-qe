@@ -1,0 +1,20 @@
+{
+  "description": "Perform Quantum ESPRESSO calculations",
+  "title": "Quantum ESPRESSO",
+  "version": "0.1.0",
+  "authors": "Carl Simon Adorf, Aliaksandr Yakutovich",
+  "logo": "miscellaneous/logos/QE.jpg",
+  "state": "development",
+  "requires": {
+    ">=20.09": [
+      "aiida-core~=1.0",
+      "aiidalab-optimade~=1.1",
+      "aiidalab-widgets-base~=1.0b",
+      "aiida-quantumespresso~=3.2",
+      "ase~=3.18",
+      "fileupload==0.1.5",
+      "nglview~=2.7",
+      "ipywidgets~=7.5"
+    ]
+  }
+}
